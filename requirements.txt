@@ -1,0 +1,14 @@
+# burnt-toast has no external pip dependencies
+# all modules used are part of the python standard library:
+#
+#   tkinter    — GUI (ships with the standard Windows Python installer)
+#   subprocess — powershell invocation
+#   threading  — async AUMID fetch
+#   textwrap   — toast preview text wrapping
+#
+# python >= 3.9 required
+#
+# if tkinter is missing (minimal Linux/WSL install):
+#   ubuntu/debian:  sudo apt install python3-tk
+#   fedora:         sudo dnf install python3-tkinter
+#   arch:           sudo pacman -S tk
